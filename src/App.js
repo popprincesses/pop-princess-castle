@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./App.css";
+import "./App.scss";
 import firebase from "firebase";
 import Nav from "./nav.js";
 import Login from './login.js';

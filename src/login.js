@@ -2,7 +2,7 @@ import React from 'react';
 import firebase from 'firebase';
 import Nav from './App';
 import { Link } from "react-router-dom";
-import "./login.css";
+import "./login.scss";
 
 class Login extends React.Component{
 
