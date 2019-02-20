@@ -13,6 +13,9 @@ class Nav extends Component {
             <Link to="/profile">Profile</Link>
           </li>
           <li>
+            <Link to="/login">Register</Link>
+          </li>
+          <li>
             <Link to="/matches">Matches</Link>
           </li>
         </ul>
