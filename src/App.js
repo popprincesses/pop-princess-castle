@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import firebase from "firebase";
 import Nav from "./nav.js";
+import Login from './login.js';
 
 var config = {
   apiKey: "AIzaSyACzuLtBRZiUe_bLfLZnHd3ypdf07zVtlk",
@@ -17,7 +18,7 @@ class App extends Component {
     return (
       <div className="App">
         <Nav />
-        <h1>THIS IS THE HOME PAGE</h1>
+        <Login />
       </div>
     );
   }
