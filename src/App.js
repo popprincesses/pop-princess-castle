@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import "./App.css";
 import firebase from "firebase";
 import Nav from "./nav.js";
-import Login from './login.js';
+import Login from "./login.js";
+
 
 var config = {
     apiKey: "AIzaSyACzuLtBRZiUe_bLfLZnHd3ypdf07zVtlk",
@@ -14,6 +15,7 @@ var config = {
 };
 firebase.initializeApp(config);
 class App extends Component {
+
     constructor(props) {
         super(props);
         this.state = {
@@ -47,6 +49,7 @@ class App extends Component {
             </div>
         );
     }
+
 }
 
 export default App;
