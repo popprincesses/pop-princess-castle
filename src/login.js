@@ -1,9 +1,7 @@
+import {Link} from "react-router-dom";
 import React, { Component } from "react";
 import firebase from "firebase";
 import Nav from "./nav.js";
-import { createCipher } from "crypto";
-import { stringify } from "querystring";
-import { finished } from "stream";
 
 class Login extends React.Component {
 
@@ -65,6 +63,8 @@ render() {
         <input type="submit"/>
         <br></br>
         </form>
+
+         <Link to="/login/createAccount">Link</Link>
     </div>
     );
 } // end render
@@ -72,5 +72,5 @@ render() {
 
 } // end login class
 
-
 export default Login;
+
