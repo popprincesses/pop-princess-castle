@@ -6,6 +6,8 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Profile from './profile/profile.js';
 import Matches from './matchPage/matchPage.js'
+import Login from './login.js';
+import CreateAccount from './createAccount.js';
 
 const routing = (
     <Router>
@@ -13,6 +15,8 @@ const routing = (
         <Route path="/" component={App} />
         <Route path="/profile" component={Profile} />
         <Route path="/matches" component={Matches} />
+        <Route path="/login" component={Login} />
+        <Route path="/login/createAccount" component={CreateAccount} />
       </div>
     </Router>
 )
